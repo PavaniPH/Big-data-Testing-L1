@@ -43,8 +43,7 @@ public class Music_website
   }
  }
 
- private static class MusicReducer extends
-   Reducer<IntWritable, IntWritable, IntWritable, IntWritable> {
+ private static class MusicReducer extends Reducer<IntWritable, IntWritable, IntWritable, IntWritable> {
   @Override
   public void reduce(
     IntWritable trackid,
